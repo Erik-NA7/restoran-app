@@ -1,0 +1,10 @@
+.flash {
+  opacity: 1;
+  /* max-height: 100px; */
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.flash.closed {
+  opacity: 0;
+}
