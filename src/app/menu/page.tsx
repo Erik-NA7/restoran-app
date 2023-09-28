@@ -34,8 +34,6 @@ export default function Menu() {
     }
   }
 
-  console.log(newMenu.name == '' || newMenu.price == 0)
-
   return (
     <section className="space-y-4">
       <div className="space-y-2 p-2">
